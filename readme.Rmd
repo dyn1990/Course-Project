@@ -1,0 +1,36 @@
+---
+title: "Course Project"
+author: "Yanan"
+date: "September 30, 2017"
+output: html_document
+---
+
+# Readme
+
+## File Information 
+
+This folder contains three files:
+        readme.Rmd
+        codebook.Rmd
+        project.R
+        tidy_data.csv
+
+In readme.Rmd, a step by step instruction is listed to help to walk through the course project.
+Codebook.Rmd provides the information of all features in their descriptive names.
+Project.R is the main analysis program.
+tidy_data.csv is the output for the assignment.
+
+## Walk Through of the Analysis
+        1. Download the dataset and unzip them for analysis, if needed.
+        2. Loading features and activity, separate the columns by the label number
+        and the corresponding variables
+        3. Load the train and test datasets, assign the colum names by the feature
+        names loaded from step 2.
+        4. Adding a corresponding `subject` and `activity` information into the dataset
+        5. Merge the two datasets
+        6. Extract the requested features to form a tidy data named `useful`
+        7. Summarize the tidy data by the mean value of all the measurement based on
+        the subject, activity group.
+        8. output the requested tidy data as `tidy_data.csv`
+
+For detailed feture information please refer to the code book.
